@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 // Os caminhos das fotos que ficarão passando. 
-const fotos = ['/images/1.jpg', '/images/2.jpg', '/images/3.jpg', '/images/4.jpg', '/images/5.jpg', '/images/6.jpg', '/images/7.jpg', '/images/8.jpg', '/images/9.jpg', '/images/10.jpg', '/images/11.jpg'];
+const fotos = ['/imagens/1.jpg', '/imagens/2.jpg', '/imagens/3.jpg', '/imagens/4.jpg', '/imagens/5.jpg', '/imagens/6.jpg', '/imagens/7.jpg', '/imagens/8.jpg', '/imagens/9.jpg', '/imagens/10.jpg', '/imagens/11.jpg'];
 
 export default function Surpresa() {
   const [fotoAtual, setFotoAtual] = useState(0);
